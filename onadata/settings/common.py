@@ -119,7 +119,7 @@ KPI_HOOK_ENDPOINT_PATTERN = '/api/v2/assets/{asset_uid}/hook-signal/'
 # specifically for site urls sent to enketo for form retrieval
 # `ENKETO_PROTOCOL` variable is overridden when internal domain name is used.
 # All internal communications between containers must be HTTP only.
-ENKETO_PROTOCOL = os.environ.get('ENKETO_PROTOCOL', 'http')
+ENKETO_PROTOCOL = os.environ.get('ENKETO_PROTOCOL', 'https')
 
 # Default value for the `UserProfile.require_auth` attribute. Even though it's
 # set in kc_environ, include it here as well to support legacy installations
