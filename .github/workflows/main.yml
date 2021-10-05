@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: simatei/appid-backend:latest
+          tags: upandeltd/appid-backend:latest
