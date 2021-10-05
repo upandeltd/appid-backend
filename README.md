@@ -1,4 +1,4 @@
-# KoBoCAT
+# KoBoCAT for APPID
 
 ## Important notice when upgrading from any release older than [`2.020.18`](https://github.com/kobotoolbox/kobocat/releases/tag/2.020.18)
 
